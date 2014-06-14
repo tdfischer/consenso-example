@@ -4,13 +4,11 @@ Adopt Consenso as decision-making tool
 
 Consenso is a text-based tool for following the process of consensus.
 
-.. comment:: Alice <alice@example.com>
+.. support:: Torrie Fischer <tdfischer@hackerbots.net>
 
-   I wish to lodge a complaint.
+   Being the author, I obviously support this idea.
 
-.. support:: Torrie Fischer <tdfischer@example.com>
-
-   I support this idea
+Reasons and such!
 
 .. concern:: Phong Phoo <phong@hackron.org>
 
