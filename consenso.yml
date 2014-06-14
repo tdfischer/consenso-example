@@ -1,0 +1,19 @@
+---
+minutes: minutes
+consensus: consensus
+workflow:
+  _initial: draft
+  open:
+    start: draft
+    end: open
+  consense:
+    start: open
+    end: active
+    requirements:
+      - len(item.blocks+item.concerns) == 0
+  reopen:
+    start: [dead, active]
+    end: open
+  kill:
+    start: '*'
+    end: dead
